@@ -1,0 +1,38 @@
+.header {
+    background-color: #fdf3e7;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 120px;
+}
+
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+/* Center the placeholder text in the match dropdown */
+#match-dropdown .Select-placeholder {
+    text-align: center;
+}
+
+/* Decrease the size of player dropdowns */
+#player1-dropdown, #player2-dropdown {
+    width: 40% !important;
+}
