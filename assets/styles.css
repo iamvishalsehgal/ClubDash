@@ -52,11 +52,81 @@
 .dropdown-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 20px;
 }
 
 .dropdown {
     flex: 1;
     margin: 0 10px;
+}
+
+/* Arrange player dropdowns side by side 
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}*/
+
+.picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.player-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.left_card_div, .right_card_div {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left_card_div {
+    left: 0;
+}
+
+.right_card_div {
+    right: 0;
+}
+
+.cardcomponent {
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cardcomponent .header {
+    background-color: #fdf3e7;
+    color: black;
+    padding: 16px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.cardcomponent .content {
+    padding: 16px;
+}
+
+.container {
+    position: relative;
+}
+
+#comparison-graph {
+    width: 600px;  /* Set the width of the plot */
+    height: 400px; /* Set the height of the plot */
+    margin: 0 auto; /* Center the plot */
 }
