@@ -32,7 +32,18 @@
     text-align: center;
 }
 
+/* Center the dropdown menu items */
+.Select-menu-outer, .Select-menu {
+    text-align: center;
+}
+
 /* Decrease the size of player dropdowns */
 #player1-dropdown, #player2-dropdown {
     width: 40% !important;
+}
+
+/* Center the placeholder text and selected text in player dropdowns */
+#player1-dropdown .Select-placeholder, #player2-dropdown .Select-placeholder,
+#player1-dropdown .Select-value-label, #player2-dropdown .Select-value-label {
+    text-align: center;
 }
