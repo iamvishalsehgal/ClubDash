@@ -47,3 +47,16 @@
 #player1-dropdown .Select-value-label, #player2-dropdown .Select-value-label {
     text-align: center;
 }
+
+/* Arrange player dropdowns side by side */
+.dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dropdown {
+    flex: 1;
+    margin: 0 10px;
+}
