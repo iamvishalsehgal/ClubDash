@@ -61,14 +61,6 @@
     margin: 0 10px;
 }
 
-/* Arrange player dropdowns side by side 
-.dropdown-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 20px;
-}*/
-
 .picture-container {
     display: flex;
     flex-direction: column;
@@ -84,21 +76,11 @@
 }
 
 .left_card_div, .right_card_div {
-    position: absolute;
     width: 300px;
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-
-.left_card_div {
-    left: 0;
-}
-
-.right_card_div {
-    right: 0;
 }
 
 .cardcomponent {
@@ -122,11 +104,29 @@
 }
 
 .container {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.segment {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.middle_segment {
+    flex: 2; /* Give the middle segment more space */
 }
 
 #comparison-graph {
-    width: 600px;  /* Set the width of the plot */
-    height: 400px; /* Set the height of the plot */
+    width: 100%;
+    height: 100%;
+    max-width: 600px; /* Maximum width for the plot */
+    max-height: 400px; /* Maximum height for the plot */
     margin: 0 auto; /* Center the plot */
 }
