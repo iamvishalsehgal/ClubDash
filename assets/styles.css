@@ -1,14 +1,23 @@
 .header {
     background-color: #fdf3e7;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header img {
-    height: 120px;
+.header-logo {
+    height: 90px;
 }
+
+.header-logo-ball {
+    height: 80px;
+}
+
+.header-logo-something {
+    height: 60px;
+}
+
 
 .header-title {
     flex-grow: 1;
@@ -148,4 +157,26 @@
     max-width: 800px; /* Maximum width for the plot */
     max-height: 500px; /* Maximum height for the plot */
     margin: 0 auto; /* Center the plot */
+}
+
+/* style.css */
+
+.graph-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.graph {
+    flex: 1;
+    margin: 10px;
+}
+
+/* Reduce the size of the box plots */
+#boxplot-player1 {
+    width: 45%;
+}
+
+#boxplot-player2 {
+    width: 45%;
 }
