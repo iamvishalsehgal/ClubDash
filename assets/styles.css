@@ -18,7 +18,6 @@
     height: 60px;
 }
 
-
 .header-title {
     flex-grow: 1;
     text-align: center;
@@ -71,24 +70,42 @@
     width: 100% !important; /* Adjust this value as needed */
 }
 
-
 .dropdown-row {
     width: 50% !important;
 }
 
-
+/* Picture container to align player, club, and flag images horizontally */
 .picture-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin-top: 10px;
 }
 
+/* Player image styles */
 .player-image {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
+    margin-right: 10px;
+    image-rendering: auto;
+}
+
+/* Club image styles */
+.club-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    image-rendering: auto;
+}
+
+/* Flag image styles */
+.flag-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    image-rendering: auto;
 }
 
 .left_card_div, .right_card_div {
@@ -158,8 +175,6 @@
     max-height: 500px; /* Maximum height for the plot */
     margin: 0 auto; /* Center the plot */
 }
-
-/* style.css */
 
 .graph-row {
     display: flex;
