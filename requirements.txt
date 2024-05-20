@@ -1,0 +1,10 @@
+pandas
+jupyter_dash
+dash
+dash-core-components
+dash-html-components
+dash-bootstrap-components
+dash-table
+dask
+plotly
+dash-mantine-components
