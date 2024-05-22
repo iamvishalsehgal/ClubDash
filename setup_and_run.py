@@ -32,25 +32,12 @@ def install_requirements():
 def install_jupyter():
     subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'jupyter'])
 
-def run_jupyter():
-    try:
-        if platform.system() == 'Windows':
-            jupyter_executable = os.path.join('venv', 'Scripts', 'jupyter.exe')
-        else:
-            jupyter_executable = os.path.join('venv', 'bin', 'jupyter')
-        
-        subprocess.check_call([jupyter_executable, 'notebook', 'dash.ipynb'])
-    except subprocess.CalledProcessError as e:
-        print(f"Error running Jupyter Notebook: {e}")
-        print("Make sure Jupyter is installed and available in the virtual environment.")
-
 def main():
     install_virtualenv()
     create_virtualenv()
     activate_virtualenv()
     install_requirements()
     install_jupyter()
-    run_jupyter()
 
 if __name__ == '__main__':
     main()
