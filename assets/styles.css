@@ -203,3 +203,39 @@
 .checkbox-container .checkbox {
     margin-bottom: 10px; /* Adjust this to control spacing between checkboxes */
 }
+
+/* Increase the width of the club and feature dropdowns */
+.club-dropdown, .feature-dropdown {
+    font-size: 18px !important;
+    width: 400px !important; /* Adjust the width as needed */
+}
+
+/* Optional: Add some padding and change the background color */
+.club-dropdown-container .club-dropdown, 
+.club-dropdown-container .feature-dropdown {
+    padding: 10px !important;
+    background-color: #f9f9f9 !important;
+    border-radius: 5px !important;
+}
+
+/* Style the dropdown options */
+.club-dropdown .css-1uccc91-singleValue, 
+.club-dropdown .css-1okebmr-indicatorSeparator, 
+.club-dropdown .css-1wy0on6, 
+.club-dropdown .css-1pahdxg-control,
+.feature-dropdown .css-1uccc91-singleValue, 
+.feature-dropdown .css-1okebmr-indicatorSeparator, 
+.feature-dropdown .css-1wy0on6, 
+.feature-dropdown .css-1pahdxg-control {
+    font-size: 18px !important;
+}
+
+/* Adjust the dropdown container */
+.club-dropdown-container {
+    padding: 20px !important;
+}
+
+/* Adjust the graph container */
+.graph-container {
+    margin-top: 20px !important;
+}
