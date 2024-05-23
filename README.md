@@ -65,6 +65,22 @@ All dependencies are listed in the `requirements.txt` file and can be installed 
   - Add more datasets for comprehensive analysis.
   - Include automated testing and validation processes.
 
+
+### Data Sources
+
+1. **Match Data:**
+   - File Used: `Matchdata.csv` (originally `data.csv`)
+   - Source: [FIFA World Cup 2022 Match Data](https://www.kaggle.com/datasets/swaptr/fifa-world-cup-2022-match-data)
+
+2. **Player Data:**
+   - Files Used: `FIFA World Cup 2022 Player Data/player_stats.csv` and `FIFA World Cup 2022 Player Data/player_misc.csv`
+   - Source: [FIFA World Cup 2022 Player Data](https://www.kaggle.com/datasets/swaptr/fifa-world-cup-2022-player-data)
+
+3. **Group Data:**
+   - Files Used: `Fifa_Worldcup_2022_Groups.csv` and `FIFA22_official_data.csv`
+   - Source: [2022 FIFA World Cup Qatar Full Live Dataset](https://www.kaggle.com/datasets/muhammad4hmed/2022-fifa-worldcup-qatar-full-live-dataset?select=Players_Data_2022)
+
+
 ### Use Cases
 - Soccer fans can explore player and team dynamics.
 - Analysts can leverage predictive modeling to forecast player performance.
