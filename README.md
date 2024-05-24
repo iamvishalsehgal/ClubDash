@@ -51,8 +51,8 @@ All dependencies are listed in the `requirements.txt` file and can be installed 
 2. **Player’s per Team Comparison:**
    - Analyze players’ performance within their national teams.
 
-3. **Similar Players per Club:**
-   - Find similarities in playing styles among club players.
+3. **Similar Players per Position:**
+   - Find similarities in playing styles among players with the same position.
 
 4. **Effect per Club:**
    - Evaluate how clubs perform in the World Cup based on their players’ performance.
