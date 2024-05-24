@@ -64,6 +64,7 @@ All dependencies are listed in the `requirements.txt` file and can be installed 
   - Improve interactivity and aesthetics using Dash Bootstrap Components.
   - Add more datasets for comprehensive analysis.
   - Include automated testing and validation processes.
+  
 
 
 ### Data Sources
@@ -90,6 +91,7 @@ All dependencies are listed in the `requirements.txt` file and can be installed 
 - Incorporate additional datasets and predictive models.
 - Develop a more robust testing framework.
 - Make Dashboard Fast.
+- Add option to create Fantasy Football Teams
 
 ### Reflection
 - The initial design allowed users to select views and compare players based on various attributes.
